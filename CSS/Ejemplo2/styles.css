@@ -1,0 +1,29 @@
+/*********SELECTORES*********/
+
+/* Selector universal */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+/* Selector de etiqueta */
+h1{
+    color: white;
+    background: red;
+    padding: 10px;
+}
+
+a{
+    font-size: 18px;
+    color:green;
+    text-decoration: none;
+}
+
+footer a{
+    color: red;
+}
+
+/* Selector de id */
+
+/* Selector de clase */
+
+/* Selector de atributo */

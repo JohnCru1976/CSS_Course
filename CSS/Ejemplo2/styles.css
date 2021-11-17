@@ -1,11 +1,11 @@
 /*********SELECTORES*********/
 
-/* Selector universal */
+/****** Selector universal ******/
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
 
-/* Selector de etiqueta */
+/****** Selector de etiqueta ******/
 h1{
     color: white;
     background: red;
@@ -22,8 +22,35 @@ footer a{
     color: red;
 }
 
-/* Selector de id */
+/****** Selector de id # ******/
+#descripcion{
+    border: 5px solid black;    
+    padding: 15px;
+}
 
-/* Selector de clase */
+#titulo{
+    background: blue;
+    border: 2px dashed black;
+    
+}
 
-/* Selector de atributo */
+/****** Selector de clase ******/
+.parrafo{
+    font-style: italic;
+    /*text-decoration: underline;*/
+    font-weight: bold;
+}
+
+.parrafo1, .parrafo3{
+    background: green;
+    color: white;
+    padding: 10px;
+}
+
+.parrafo3{
+    background: orange;
+    color: black;
+}
+
+/****** Selector de atributo ******/
+

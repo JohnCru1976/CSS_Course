@@ -1,17 +1,35 @@
+/*Creación de una fuente*/
+@font-face {
+    font-family: Comforter;
+    src: url(fonts/Comforter_Brush/ComforterBrush-Regular.ttf);
+}
+
 h1{
-    font-family:'Comic Sans MS';
+    font-family:'Mansalva';
     font-size: 25px;
     font-style: italic;    
+    text-transform:uppercase;
+
+    /* COLORES */
+    /* Colores del sistema */
+    color: transparent;
+    color:darkViolet;
+    /* Colores Hexadecimales */
+    color: #4e1b1b;
+    color: #ffffff;
+    color: #3b2424;
+    /* Colores RGB */
+    /* Colores RGBA */
 }
 
 h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-weight: lighter;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 p{
-    font-family:'Courier New', Courier, monospace;
-    font-size: 15px;
-    font-weight:bold;
+    font-family: Comforter, Courier, monospace;
+    font-size: 30px;
+    font-weight:lighter;
 }

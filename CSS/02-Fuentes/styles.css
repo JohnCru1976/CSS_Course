@@ -17,9 +17,11 @@ h1{
     /* Colores Hexadecimales */
     color: #4e1b1b;
     color: #ffffff;
-    color: #3b2424;
+    color: #44bf7f;
     /* Colores RGB */
+    color: rgb(80, 94, 138);
     /* Colores RGBA */
+    color: rgba(160, 95, 35, 0.63);
 }
 
 h3{

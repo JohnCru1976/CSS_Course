@@ -1,0 +1,15 @@
+body{
+    background-color: #cccccc;
+    background-image: url("images/pattern2.png");
+    /* background-repeat: repeat;   - es lo que viene por defecto */
+    /* background-size: 100%;    - pensado para fondos grandes */
+    /* background-attachment: fixed;    - deja el fondo fijo */
+}
+
+#caja{
+    border: 5px solid black;
+    padding: 10px;
+    background-color: #c91212d2;
+    color: black;
+    background-image: url("images/pattern.jpg")
+}

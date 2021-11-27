@@ -2,6 +2,7 @@
 
 The course is composed by several parts which will be included in separated folders.
 
+<!--
 CSS - Cascade Style Sheets
 HTML - HyperText Markup Language
 CMS - Content Management System
@@ -25,3 +26,4 @@ SEM - Search Engine Marketing
 
 Enlace a resumen CSS
 https://www.eniun.com/resumen-tabla-propiedades-css-valores/#Tabla_resumen_CSS
+-->

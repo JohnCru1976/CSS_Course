@@ -298,6 +298,13 @@ button{
     text-align: center;
 }
 
+#aula1 > h3{
+    color: #0c73f2;
+}
+#aula2 > h3{
+    color: #9b2422;
+}
+
 #enlaces ul li{
     list-style: square;
     margin-top: 8px;

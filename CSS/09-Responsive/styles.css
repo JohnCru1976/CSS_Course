@@ -9,7 +9,7 @@
 }
 
 #container{    
-    width: 1000px;
+    width: 80%;
     background: red;
     margin: 0px auto;
     margin-top: 40px;
@@ -52,4 +52,35 @@ aside{
     border: 2px solid white;
     float: left;
     margin: 15px;
+}
+
+/* RESPONSIVE */
+/* Desde la anchura 0px a 880px */
+@media(max-width: 880px){
+    #articles article{
+        width: 40%;
+        background: red;
+    }
+}
+
+@media(max-width: 620px){
+    #container{
+        overflow: hidden;
+    }
+    aside{
+        float: none;
+        min-height: auto;
+        line-height: 20px;
+        width: 96%;
+        padding: 2%;
+    }
+
+    #articles{
+        width: 100%;
+    }
+
+    #articles article{
+        width: 90%;
+        background: blue;
+    }
 }

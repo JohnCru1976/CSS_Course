@@ -71,12 +71,46 @@ body{
     transition: all 300ms;
 }
 
+#logo:hover{
+    border-radius: 2px;
+    color: black;
+    background-color: #ccc;
+}
+
 #logo .gear{
     display: block;
     float: left;
     font-size: 30px;
     margin-top: 8px;
     margin-left: 26px;
+    animation-name: rotate-gear;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate-gear {
+    from{
+        transform: rotateZ(0deg);
+    } to {
+        transform: rotateZ(360deg);
+    }
+}
+
+#logo:hover .gear{
+    animation: fromBellow 500ms linear;
+}
+
+@keyframes fromBellow{
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(200%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
 }
 
 #logo h3{
@@ -86,6 +120,22 @@ body{
     margin-top: 5px;
     margin-right: 65px;
     transition: all 300ms;
+}
+
+#logo:hover h3{
+    animation: fromAside 300ms linear;
+}
+
+@keyframes fromAside{
+    0%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(200%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
 }
 
 #menu{
@@ -124,6 +174,17 @@ body{
     background: url(../img/bakbaner.png);
     background-position: -370px -220px;
     margin: 20px auto;
+    overflow: hidden;
+    animation: backBanner 7s linear;
+}
+
+@keyframes backBanner{
+    from{
+        background-position: 0px 0px;
+    }
+    to{
+        background-position: -370px -220px;
+    }
 }
 
 #banner h1{
@@ -136,6 +197,30 @@ body{
     margin:27px auto;
     font-weight: normal;
     text-shadow: 2px 2px 1px black;
+    animation: showText 7s linear;
+}
+
+@keyframes showText{
+    0%{
+        transform: translateX(-600%) scale(5,5);
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(600%) scale(5,5);
+        opacity: 1;
+    }
+    75%{
+        transform: translateX(-600%) scale(5,5);
+        text-shadow: none;
+        color: transparent;
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%) scale(1,1);
+        text-shadow: 2px 2px 1px black;
+        color: white;
+        opacity: 1;
+    }
 }
 
 /* CARDS */
@@ -465,7 +550,7 @@ button:hover{
 
 #footer .wrap > div{
     float: left;
-    width: 280px;
+    width: 286px;
     height: 360px;
     margin: 40px;
     text-align: center;
@@ -476,11 +561,10 @@ button:hover{
 footer a{
     text-decoration: none;
     color: #37bcf9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
     transition: all 300ms;
-    font-family: "BebasNeue";
-    font-size: 30px;
-    letter-spacing: 3px;
-    font-variant-caps:small-caps ;
 }
 
 #footer h5{

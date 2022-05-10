@@ -1,0 +1,12 @@
+/* Desde el pixel 0 al pixel 1250 (tamaño del wrap principal) */
+@media (max-width: 1249px){
+    .wrap{
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .card{
+        width: 190px;
+        margin: 13px;
+    }
+}

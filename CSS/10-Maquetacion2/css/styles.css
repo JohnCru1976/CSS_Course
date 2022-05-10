@@ -40,7 +40,7 @@ body{
 }
 
 .wrap{
-    width: 1100px;
+    width: 1250px;
     margin: 0px auto;
 }
 
@@ -227,11 +227,11 @@ body{
 .card{
     float: left;
     overflow: hidden;
-    width: 190px;
+    width: 208px;
     height: 305px;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 2px #ddd;
-    margin: 14px;
+    margin: 20px;
     margin-top: 30px;
     margin-bottom: 50px;
     background: white;
@@ -527,8 +527,9 @@ button:hover{
 
 /* ARTÍCULOS */
 #articles{
-    width: 760px;
+    width: 885px;
     float: left;
+    margin-left: 15px;
 }
 
 #articles h2{
@@ -664,7 +665,7 @@ button:hover{
 
 #footer .wrap > div{
     float: left;
-    width: 286px;
+    width: 26.9%;
     height: 360px;
     margin: 40px;
     text-align: center;

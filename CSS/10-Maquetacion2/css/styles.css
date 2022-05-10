@@ -446,7 +446,7 @@ aside h3:first-child{
 #login input[type="submit"],
 #login input[type="button"],
 #login input[type="reset"],
-button{
+#login button{
     /*display: block;*/
     /*float: left;*/
     text-align: center;
